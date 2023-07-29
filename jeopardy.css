@@ -1,0 +1,64 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+#loading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+th {
+  font-weight: bold;
+  background-color: #1120f4;
+  color: #fff;
+}
+
+td {
+  padding: 15px;
+  font-size: 12px;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  font-weight: bold;
+  background-color: #115ff4;
+  color: #fff;
+}
+
+#restart {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #28a200;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#restart:disabled {
+  background-color: #8d2ab5;
+  cursor: not-allowed;
+}
